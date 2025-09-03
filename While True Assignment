@@ -1,3 +1,5 @@
+## Exercício While True
+
 soma = 0
 
 while True:
