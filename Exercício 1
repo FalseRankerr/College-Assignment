@@ -1,0 +1,15 @@
+soma = 0
+
+while True:
+ numero = int(input("Coloque um numero inteiro positivo aqui:"))
+ if numero == 0:
+  break
+ 
+ soma += numero  #soma os numeros que a pessoa escolheu
+
+contador = 0
+while contador <= numero:
+    print(contador)
+    contador += 1
+
+print ("a soma dos números é:", soma)
